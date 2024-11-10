@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "7cc48502-8d55-4867-912d-f9fcc587125a",
+		"name": "file-converter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24265031"
+	},
+	"item": [
+		{
+			"name": "writeXml",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8088/file-converter?lang=tr&xmlFileName=output&csvFileName=input",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8088",
+					"path": [
+						"file-converter"
+					],
+					"query": [
+						{
+							"key": "lang",
+							"value": "tr"
+						},
+						{
+							"key": "xmlFileName",
+							"value": "output"
+						},
+						{
+							"key": "csvFileName",
+							"value": "input"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
